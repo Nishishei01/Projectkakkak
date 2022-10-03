@@ -1,0 +1,132 @@
+/*
+.label{
+    -fx-background-color: "black";
+}
+*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
+
+.root {
+    -fx-background-color : #FFF5E4;
+
+}
+
+
+
+.button{
+    -fx-background-color : #FFE3E1;
+    -fx-padding: 3 30 3 30;
+    -fx-background-radius : 30 30 30 30;
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+}
+
+.button:hover{
+   -fx-background-color : #FF9494;
+   -fx-background-radius : 30 30 30 30;
+}
+
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+
+-fx-background-color: #FF9494;
+-fx-text-fill: black;
+
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+    -fx-text-fill : white;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: FF9494;
+}
+
+.scroll-pane {
+    -fx-background-color : #FFE3E1;
+     -fx-border-color: black;
+        -fx-border-width: 2;
+        -fx-border-radius: 5;
+        -fx-background-radius: 12;
+        -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 1), 10, 0, 3, 3);
+        -fx-background-insets: 0, 1;
+        -fx-padding: 1;
+}
+
+.scroll-bar{
+    -fx-background-color : #FFD1D1;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: FF9494;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #FFD1D1;
+    -fx-background-radius: 5em;
+}
+
+AnchorPane{
+}
+
+ListView {
+    -fx-background-color: #FFD1D1;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 1), 10, 0, 3, 3);
+    -fx-background-insets: 0, 1;
+    -fx-padding: 1;
+}
+
+TextField{
+ -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+ -fx-background-color: #FFD1D1;
+ -fx-font-color : black;
+
+}
+
+PasswordField{
+    -fx-background-color: #FFD1D1;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+
+}
+
+.check-box .box {
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-radius: 2px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #FF9494;
+}
+
+Button {
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 1), 0, 0, 2, 2);
+    -fx-background-insets: 0, 1;
+    -fx-padding: 1;
+    -fx-cursor: hand;
+}
